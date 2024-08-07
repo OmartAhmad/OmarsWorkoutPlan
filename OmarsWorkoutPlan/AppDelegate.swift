@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 2/28/24.
-//
 
 import UIKit
 
