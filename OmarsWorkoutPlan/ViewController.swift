@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 2/28/24.
-//
+
 
 import UIKit
 import AVKit
@@ -16,7 +11,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSound()
-        // Do any additional setup after loading the view.
     }
 
 
