@@ -1,9 +1,3 @@
-//
-//  BulkingController.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 2/29/24.
-//
 
 import UIKit
 import AVFoundation
