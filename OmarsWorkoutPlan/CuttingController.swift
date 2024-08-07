@@ -1,9 +1,4 @@
-//
-//  CuttingController.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 3/7/24.
-//
+
 
 
 import UIKit
