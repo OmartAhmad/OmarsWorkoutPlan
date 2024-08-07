@@ -1,9 +1,3 @@
-//
-//  Routine.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 3/6/24.
-//
 
 import Foundation
 class Routine{
