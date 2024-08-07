@@ -13,14 +13,13 @@ class MapsView: UIViewController, CLLocationManagerDelegate {
         setupLocationManager()
         setupBackButton()
         
-        // Add annotations for specific places
         addAnnotations()
     }
     
     func setupMapView() {
         mapView = MKMapView(frame: view.bounds)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        mapView.showsUserLocation = true // Show the user's current location
+        mapView.showsUserLocation = true 
         view.addSubview(mapView)
     }
     
@@ -39,11 +38,9 @@ class MapsView: UIViewController, CLLocationManagerDelegate {
         backButton.layer.cornerRadius = 5
         backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
         
-        // Add the button to the view and bring it to front
         view.addSubview(backButton)
         view.bringSubviewToFront(backButton)
         
-        // Set the button constraints
         backButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             backButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
@@ -54,7 +51,6 @@ class MapsView: UIViewController, CLLocationManagerDelegate {
     }
     
     @objc func backButtonTapped() {
-        // Handle back button action
         self.dismiss(animated: true, completion: nil)
     }
     
