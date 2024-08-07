@@ -1,9 +1,3 @@
-//
-//  PlansController.swift
-//  OmarsWorkoutPlan
-//
-//  Created by Omar A on 2/28/24.
-//
 
 import Foundation
 import UIKit
@@ -29,18 +23,16 @@ class PlansController: UIViewController {
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            // Set the plan choice based on the selected plan type
             setupButtons()
             setChoice(index: 0)
         }
 
         func setupButtons() {
-            // Hide all buttons initially
             bulkingButton.isHidden = true
             cuttingButton.isHidden = true
             maintainingButton.isHidden = true
             
-            // Show the button based on the selected plan type
+
             switch selectedPlanType {
             case "bulking":
                 bulkingButton.isHidden = false
